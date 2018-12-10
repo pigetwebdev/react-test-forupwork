@@ -1,0 +1,2 @@
+export const MOVE_NEXT_PAGE = 'MOVE_NEXT_PAGE'
+export const MOVE_LAST_PAGE = 'MOVE_LAST_PAGE'

@@ -1,0 +1,10 @@
+.DemoLastPageWrapper {
+    width: 100%;
+    height: 100%;
+    background-color: chocolate;
+}
+
+.DemoLastPageWrapper:first-child {
+    font-size: 50px;
+    padding-top: 19%;    
+}

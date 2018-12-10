@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DemoChatBox_____------______ 1`] = `
+<div
+  className="DemoChatBoxWrapper"
+>
+  <div
+    className="first"
+  >
+    <button
+      className="btn-mychat"
+      onClick={[Function]}
+      type="button"
+    >
+      Chat
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,81 @@
+.DemoChatBoxWrapper {
+    position: relative;
+    float: right;
+    width: 600px;
+    height: 100%;
+}
+.btn-mychat {    
+    display: block;
+    float: right;
+    padding: 0;
+    width: 60px;
+    height: 60px;
+    border-width: 0;
+    background-image: url("../../asset/chat-bubble.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    font-size: 0;
+}
+.btn-choiceselect1 {
+    padding: 7px 12px;
+    border-width: 0;
+    margin-right: 7px;
+    border-radius: 20px;
+    background-color: #282c34;
+    color: #fff;
+}
+.btn-choiceselect2 {
+    padding: 5px 15px;
+    border-width: 1;
+    margin-right: 7px;
+    border-color: #fff;
+    border-radius: 20px;
+    background-color:transparent;
+    color: #fff;
+}
+
+.chat-show {
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 11px 0;
+    width: calc(100% - 60px);
+    height: 50px;
+    border-radius: 20px 0 0 20px;
+    background-color: #fff;
+}
+.chat-nextshow {
+    float: left;
+    margin-top: 39px;    
+    margin-bottom: 20px;
+    padding: 11px 0;
+    width: 100%;
+    border-radius: 10px 10px 0 10px;
+    background-color: #fd7e14;
+    color: white
+}
+.first {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    /* transform: translateY(-50%); */
+    width: 100%;    
+}
+.second {
+    position: absolute;
+    top: 5%;
+    right: 0;
+    /* transform: translateY(-50%); */
+    width: 100%;    
+    
+}
+.btn-close {
+    border-radius: 0;
+    background-color: transparent;
+    border-width: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;    
+}

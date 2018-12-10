@@ -1,0 +1,60 @@
+.DemoLikeProductWrapper {
+    position: relative;
+    float: right;
+    width: 100%;
+    height: 100%;
+}
+
+.product-image {
+    float: left;
+    width: 40%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../../asset/img_product.png');
+
+}
+.demo-product {
+    height: 100%;   
+}
+.div-like {
+    float: left;
+    width: 60%;
+    height: 100%;
+    background-color: #fd7e14ed;    
+}
+
+.btn-close {
+    border-radius: 0;
+    background-color: transparent;
+    border-width: 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 0;    
+}
+.text-like {
+    font-size: 50px;
+    width: 60%;
+    top: 30%;
+    margin: 29% 9% 13px 3px;
+    color: #fff;
+}
+
+.like-slider {
+    margin: 0 10% 0 10%;    
+}
+
+.rc-slider-tooltip-inner{
+    padding: 5px 21px;
+    min-width: 34px;
+    height: 43px;
+    font-size: 29px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #8D4D28;
+    border-radius: 21px;
+    box-shadow: 0 0 4px #d9d9d9;  
+    margin-top: 14px;
+}
