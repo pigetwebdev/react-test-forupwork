@@ -3,7 +3,8 @@ import { connect } from 'react-redux';
 import { moveNextPage,moveLastPage } from '../../Actions/actionCreator';
 import {bindActionCreators} from 'redux';
 import './DemoChatBox.css';
-const API = "http://localhost:3000/"     //API Base URL
+//const API = "http://localhost:3000/"     //API Base URL
+const API = "https://testreactforupwork.herokuapp.com/"     //API Base URL
 const  DEFAULT_QUERY = 'resource/chatbottext.json'    //API
 
 //import { Test } from './DemoChatBox.styles';
