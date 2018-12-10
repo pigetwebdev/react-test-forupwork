@@ -40,7 +40,7 @@ class DemoLikeProduct extends PureComponent {
   render () {
     return (
       <div className="DemoLikeProductWrapper">
-       <button className="btn-close" onClick = {this.props.moveNextPage}>X</button>
+       <button className="btn-close" onClick = {this.props.moveNextPage}>×</button>
         <div className='demo-product'>
           <div className = 'product-image'></div>
           {/* <img src={imgProduct} className="img-product" alt="" /> */}
